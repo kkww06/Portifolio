@@ -19,4 +19,4 @@
   Como é um código consideravelmente antigo, não recordo de todos os erros, dificuldades e descrição do por que dos erros. </p>
   
 <h3> LINK PARA ACESSAR O SITE </h3>
-<a href="[https://www.homehost.com.br/](https://script.google.com/macros/s/AKfycbxY9dv5ZSOTkM20LPeEt6t1dBah9GI3LP_WfaHeZ65kirhNml6grgT7GPzz5AnUdmxI/exec)">SITE APRESENTDADO NESSE PORTIFOLIO</a>
+<a href="https://script.google.com/macros/s/AKfycbxY9dv5ZSOTkM20LPeEt6t1dBah9GI3LP_WfaHeZ65kirhNml6grgT7GPzz5AnUdmxI/exec">SITE APRESENTADADO NESSE PORTIFOLIO</a>
