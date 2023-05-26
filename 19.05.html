@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charse="UTF-8"/>
+        <title> João Victor </title>
+    </head>
+    <body>
+        <form onsubmit="cadastrarProduto()">
+            <label for="produto"> Informe produto: </label>
+            <input type="text" id="produto" required/>
+            <label for="pQuantidade"> Quantidade do produto: </label>
+            <input type="number" id="pQuantidade" required/>
+
+            <button type="submit"> Enviar dados </button>
+        </form>
+
+    <table id="tabelaProduto" style="border: solid 1px">
+        <tr>
+            <th>Produto comprado</th>
+            <th>Quantidae comprada</th>
+        </tr>
+    </table>
+
+    <script>
+        function cadastrarProduto(){
+    event.preventDefault()
+
+    var produto = document.getElementById('produto').value
+    var pQuantidade = document.getElementById('pQuantidade').value
+
+    var tabelaProduto = document.getElementById('tabelaProduto')
+    var linha = document.createElement('tr')
+
+    var colunaProduto = document.createElement('td')
+    var colunaPQuantidade = document.createElement('td')
+
+    colunaProduto.innerHTML = produto
+    colunaPQuantidade.innerHTML = pQuantidade
+
+    linha.appendChild(colunaProduto)
+    linha.appendChild(colunaPQuantidade)
+
+    tabelaProduto.appendChild(linha)
+}
+    </script>
+    </body>
+
+</html>
